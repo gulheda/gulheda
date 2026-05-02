@@ -1,6 +1,6 @@
 <div align="center">
 
-# Merhaba, Ben Gülheda! 👋
+# Merhaba, Ben Gülheda! 
 
 **Yapay Zeka & Otonom Sistemler Geliştiricisi**
 
