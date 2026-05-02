@@ -1,69 +1,71 @@
-<h1 align="center">🚀 AI Engineer | Autonomous Systems</h1>
+<h1 align="center">🚀 AI Engineer | Autonomous UAV Systems</h1>
 
 <p align="center">
-Building intelligent systems at the intersection of <b>Artificial Intelligence</b>, <b>Autonomous UAV Systems</b>, and <b>Simulation Technologies</b>.
+  Designing intelligent systems at the intersection of 
+  <b>Artificial Intelligence</b>, 
+  <b>Autonomous UAV Systems</b>, and 
+  <b>Simulation Technologies</b>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,linux,git" />
 </p>
 
 ---
 
-## 🧠 About Me
+<h2>🧠 About</h2>
 
-- 🎯 Focused on **AI-driven autonomous systems**
-- 🤖 Working on **UAV simulation, control systems, and data-driven models**
-- ⚙️ Strong interest in **system architecture & real-world engineering problems**
-- 📈 Continuously improving in **machine learning, simulation, and backend systems**
-
----
-
-## ⚡ Tech Stack
-
-### 🧑‍💻 Programming
 <p>
-  <img src="https://skillicons.dev/icons?i=python" />
-  <img src="https://skillicons.dev/icons?i=mysql" />
+Focused on building <b>data-driven, simulation-based, and autonomous systems</b> with a strong engineering mindset.
+</p>
+
+<ul>
+  <li>🤖 AI-driven autonomous systems</li>
+  <li>🚁 UAV simulation & control pipelines</li>
+  <li>⚙️ System architecture & engineering design</li>
+  <li>📈 Continuous improvement in ML & simulation</li>
+</ul>
+
+---
+
+<h2>⚡ Technical Stack</h2>
+
+<h3>🧑‍💻 Programming</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=python,mysql" />
+</p>
+
+<h3>📊 Data Science & Machine Learning</h3>
+<p>
+  NumPy • Pandas • Matplotlib • Seaborn <br/>
+  Exploratory Data Analysis (EDA) • Feature Engineering • ML Fundamentals
+</p>
+
+<h3>🚁 Autonomous Systems & Simulation</h3>
+<p>
+  ROS • Gazebo • ArduPilot • MAVProxy <br/>
+  UAV Simulation Systems
+</p>
+
+<h3>🌐 Computer Networks</h3>
+<p>
+  Cisco Networking • VLAN • Routing • DHCP • Network Simulation
 </p>
 
 ---
 
-### 📊 Data Science & Machine Learning
-- NumPy  
-- Pandas  
-- Matplotlib  
-- Seaborn  
-- Exploratory Data Analysis (EDA)  
-- Feature Engineering  
-- Machine Learning Fundamentals  
+<h2>⚙️ Engineering Focus</h2>
+
+<ul>
+  <li>Designing autonomous system architectures</li>
+  <li>Building simulation-driven pipelines</li>
+  <li>Applying machine learning to real-world systems</li>
+  <li>Developing scalable and structured solutions</li>
+</ul>
 
 ---
 
-### 🚁 Autonomous Systems & Simulation
-- ROS (Robot Operating System)  
-- Gazebo Simulation  
-- ArduPilot  
-- MAVProxy  
-- UAV Simulation Systems  
-
----
-
-### 🌐 Computer Networks
-- Cisco Networking  
-- VLAN  
-- Routing  
-- DHCP  
-- Network Simulation  
-
----
-
-## ⚙️ Engineering Mindset
-
-- System-oriented thinking  
-- Scalable and maintainable design  
-- Performance-aware development  
-- Problem-solving with real-world constraints  
-
----
-
-## 📊 GitHub Stats
+<h2>📊 GitHub Analytics</h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
@@ -73,26 +75,31 @@ Building intelligent systems at the intersection of <b>Artificial Intelligence</
 
 ---
 
-## 🎯 Focus Areas
+<h2>🎯 Core Areas</h2>
 
-- Artificial Intelligence  
-- Autonomous UAV Systems  
-- Simulation & Control Systems  
-- Data Processing & Analysis  
-
----
-
-## 📌 Philosophy
-
-> Build systems that are not just working —  
-> but **scalable, intelligent, and engineering-driven**.
+<p align="center">
+  Artificial Intelligence • Autonomous Systems • UAV Simulation • Data Processing
+</p>
 
 ---
 
-## 📫 Contact
+<h2>📌 Philosophy</h2>
 
-- LinkedIn: (ekle)
-- Email: (ekle)
+<p align="center">
+<b>
+Engineer systems that are not only functional —  
+but scalable, intelligent, and reliable under real-world constraints.
+</b>
+</p>
+
+---
+
+<h2>📫 Contact</h2>
+
+<p>
+  LinkedIn: <a href="#">Add your link</a><br/>
+  Email: your@email.com
+</p>
 
 ---
 
