@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gülheda Sefa | AI Engineer Portfolio</title>
+  <style>
+    :root {
+      --bg-0: #05070f;
+      --bg-1: #0a1022;
+      --glass: rgba(18, 28, 56, 0.45);
+      --line: rgba(95, 180, 255, 0.22);
+      --text: #eaf3ff;
+      --muted: #9db5d9;
+      --cyan: #00e5ff;
+      --blue: #3b82f6;
+      --purple: #8b5cf6;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: radial-gradient(circle at 20% 10%, #121a35 0%, var(--bg-0) 45%, #03040a 100%); color: var(--text); font-family: Inter, Segoe UI, sans-serif; scroll-behavior: smooth; }
+    body::before {
+      content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 1;
+      background-image:
+        linear-gradient(rgba(91,144,255,.09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(91,144,255,.09) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(circle at center, black 30%, transparent 92%);
+    }
+    #stars { position: fixed; inset: 0; z-index: 0; }
+    .streak { position: fixed; width: 34vw; height: 2px; background: linear-gradient(90deg, transparent, rgba(0,229,255,.7), transparent); filter: blur(1px); animation: drift 12s linear infinite; opacity: .5; z-index: 0; }
+    .s1 { top: 24%; left: -20%; animation-delay: 0s; }
+    .s2 { top: 64%; left: -30%; animation-delay: 4s; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(140vw); } }
+
+    main { position: relative; z-index: 2; max-width: 1120px; margin: 0 auto; padding: 24px; }
+    .hero {
+      min-height: 92vh; display: grid; align-content: center; gap: 24px; position: relative;
+    }
+    .hero h1 {
+      margin: 0; font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1;
+      text-shadow: 0 0 24px rgba(0,229,255,.45), 0 0 54px rgba(139,92,246,.25);
+      animation: reveal .8s ease both;
+    }
+    .hero .sub {
+      font-size: clamp(1.05rem, 2.2vw, 1.5rem); color: #c4dcff; min-height: 1.8em;
+      border-right: 2px solid var(--cyan); white-space: nowrap; overflow: hidden;
+      width: fit-content;
+      animation: blink .8s steps(1) infinite;
+    }
+    @keyframes blink { 50% { border-color: transparent; } }
+    .cta { display: flex; gap: 14px; flex-wrap: wrap; animation: reveal 1.1s ease both; }
+    .btn {
+      border: 1px solid rgba(0,229,255,.5); padding: 12px 18px; color: var(--text); text-decoration: none;
+      background: linear-gradient(160deg, rgba(8,20,44,.7), rgba(20,35,72,.35)); border-radius: 12px;
+      box-shadow: 0 0 0 rgba(0,229,255,0); transition: transform .25s, box-shadow .25s, border-color .25s;
+      position: relative; overflow: hidden;
+    }
+    .btn:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 0 22px rgba(0,229,255,.35); border-color: var(--cyan); }
+
+    .hud { position: absolute; right: 0; top: 18%; width: min(360px, 92vw); }
+    .panel {
+      background: var(--glass); border: 1px solid var(--line); border-radius: 16px; backdrop-filter: blur(10px);
+      padding: 14px; box-shadow: 0 10px 40px rgba(17,24,39,.4), inset 0 0 40px rgba(59,130,246,.08);
+      animation: floaty 5s ease-in-out infinite;
+    }
+    @keyframes floaty { 50% { transform: translateY(-8px); } }
+    .panel small { color: var(--muted); letter-spacing: .08em; }
+    .panel strong { color: var(--cyan); }
+
+    section { margin: 46px 0; }
+    .card {
+      background: var(--glass); border: 1px solid var(--line); border-radius: 18px; padding: 24px;
+      backdrop-filter: blur(9px); box-shadow: 0 10px 40px rgba(6,10,20,.45);
+      opacity: 0; transform: translateY(26px); transition: all .7s ease;
+    }
+    .card.show { opacity: 1; transform: translateY(0); }
+    h2 { margin-top: 0; color: #d8e9ff; }
+    .glow { box-shadow: 0 0 0 1px rgba(0,229,255,.22), 0 0 24px rgba(0,229,255,.14); }
+
+    .focus-item { margin: 14px 0; }
+    .bar { height: 10px; border-radius: 999px; background: rgba(148,163,184,.2); overflow: hidden; }
+    .fill { height: 100%; background: linear-gradient(90deg, var(--blue), var(--cyan), var(--purple)); transform: scaleX(0); transform-origin: left; animation: grow 1.5s ease forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+
+    .stack { display: flex; flex-wrap: wrap; gap: 10px; }
+    .badge {
+      padding: 9px 14px; border-radius: 999px; background: rgba(30,41,59,.5); border: 1px solid var(--line);
+      transition: transform .25s, box-shadow .25s;
+    }
+    .badge:hover { transform: translateY(-4px); box-shadow: 0 0 18px rgba(0,229,255,.35); }
+
+    .projects { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 14px; }
+    .project {
+      padding: 16px; border-radius: 14px; border: 1px solid var(--line);
+      background: linear-gradient(160deg, rgba(17,24,39,.65), rgba(30,41,59,.35));
+      transition: transform .25s, box-shadow .25s;
+    }
+    .project:hover { transform: translateY(-6px); box-shadow: 0 0 26px rgba(139,92,246,.25); }
+
+    .pipeline { height: 2px; margin: 30px 0; background: linear-gradient(90deg, transparent, var(--cyan), var(--purple), transparent); animation: pulse 2s infinite; }
+    @keyframes pulse { 50% { opacity: .35; } }
+    @keyframes reveal { from { opacity: 0; transform: translateY(16px);} to { opacity: 1; transform: translateY(0);} }
+  </style>
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <div class="streak s1"></div><div class="streak s2"></div>
+
+  <main>
+    <section class="hero">
+      <h1>Gülheda Sefa</h1>
+      <div class="sub" id="typing"></div>
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+      <div class="hud panel">
+        <small>MISSION STATUS</small><br />
+        <strong>AI Engineer in Training</strong><br />
+        Autonomous UAV Systems · Vision · Simulation
+      </div>
+    </section>
+
+    <div class="pipeline"></div>
+
+    <section class="card glow" id="summary">
+      <h2>1. Professional Summary</h2>
+      <p>I design mission-ready autonomy pipelines where computer vision, control logic, and simulation testing converge. My engineering direction is focused on defense-grade reliability, real-time behavior, and validated autonomous decision-making under uncertainty.</p>
+    </section>
+
+    <section class="card" id="focus">
+      <h2>2. Current Focus</h2>
+      <div class="focus-item">🛰️ ArduPilot + Gazebo UAV Simulation<div class="bar"><div class="fill" style="width:92%"></div></div></div>
+      <div class="focus-item">👁️ Computer Vision Navigation<div class="bar"><div class="fill" style="width:84%"></div></div></div>
+      <div class="focus-item">📊 Telemetry Intelligence (Python/Pandas)<div class="bar"><div class="fill" style="width:88%"></div></div></div>
+    </section>
+
+    <section class="card" id="stack">
+      <h2>3. Tech Stack</h2>
+      <div class="stack">
+        <span class="badge">Python</span><span class="badge">OpenCV</span><span class="badge">Pandas</span>
+        <span class="badge">ArduPilot</span><span class="badge">Gazebo</span><span class="badge">Linux</span>
+        <span class="badge">Autonomous Decision Systems</span><span class="badge">Real-Time Control</span>
+      </div>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>4. Projects</h2>
+      <div class="projects">
+        <article class="project"><h3>Autonomous UAV Simulation Stack</h3><p>Scenario-driven SITL mission testing with feedback loops for control and stability tuning.</p></article>
+        <article class="project"><h3>Vision-Based Navigation Experiments</h3><p>Perception modules for environmental understanding and route decision support.</p></article>
+        <article class="project"><h3>Telemetry Performance Pipeline</h3><p>Post-run analytics for mission KPIs: response time, path efficiency, and control consistency.</p></article>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>GitHub: github.com/gulheda · LinkedIn: linkedin.com/in/gulhedasefa · Email: gulheda.sefa@proton.me</p>
+    </section>
+  </main>
+
+  <script>
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let w,h,stars=[];
+    const setSize=()=>{w=canvas.width=innerWidth;h=canvas.height=innerHeight}; setSize(); addEventListener('resize',setSize);
+    for(let i=0;i<160;i++) stars.push({x:Math.random()*w,y:Math.random()*h,z:Math.random()*1.8+.2,s:Math.random()*1.8+.2});
+    function tick(){
+      ctx.clearRect(0,0,w,h);
+      stars.forEach(st=>{st.y+=st.z*0.15; st.x+=Math.sin(st.y*0.002)*0.08; if(st.y>h){st.y=0;st.x=Math.random()*w}
+        ctx.fillStyle=`rgba(150,210,255,${0.3+st.z*0.35})`; ctx.beginPath(); ctx.arc(st.x,st.y,st.s,0,Math.PI*2); ctx.fill();});
+      requestAnimationFrame(tick);
+    } tick();
+
+    const text = "AI Engineer in Training | Autonomous UAV Systems";
+    const typing = document.getElementById('typing');
+    let i=0; (function type(){ typing.textContent = text.slice(0,i++); if(i<=text.length) setTimeout(type,40); })();
+
+    const observer = new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.15});
+    document.querySelectorAll('.card').forEach(c=>observer.observe(c));
+
+    addEventListener('scroll',()=>{
+      const y=scrollY*0.08;
+      document.querySelectorAll('.streak').forEach((s,idx)=>s.style.transform=`translateY(${y*(idx+1)}px)`);
+    });
+  </script>
+</body>
+</html>
