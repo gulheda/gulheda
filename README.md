@@ -1,44 +1,40 @@
-<div align="center">
+# Merhaba, Ben Gülheda! 👋
 
-## 🎛️ TECHNICAL SKILLS CORE
-<kbd>SYS.TASK: SIMULATION -> AUTONOMOUS FLIGHT</kbd> &nbsp;|&nbsp; <kbd>STATUS: ONLINE</kbd>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&pause=1000&color=007ACC&center=false&vCenter=true&width=600&lines=Bilgisayar+Mühendisliği+Öğrencisi;Yapay+Zeka+%26+Veri+Bilimi+Tutkunu;Otonom+İHA+Sistemleri+Geliştiricisi" alt="Typing SVG" /></a>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="500">
+Yapay Zeka, Veri Bilimi ve Otonom Sistemler üzerine yoğunlaşan 3. sınıf Bilgisayar Mühendisliği öğrencisiyim. Görüntü işleme, derin öğrenme mimarileri (CNN) ve İHA simülasyonlarından otonom uçuş yazılımlarına geçiş süreçleri üzerine aktif olarak çalışıyorum.
 
-### 💻 PROGRAMMING
-<p>
-  <img src="https://img.shields.io/badge/Python-050505?style=for-the-badge&logo=python&logoColor=00f2ff" />
-  <img src="https://img.shields.io/badge/SQL-050505?style=for-the-badge&logo=postgresql&logoColor=7000ff" />
-</p>
-
-<br>
-
-### 🧠 DATA SCIENCE & MACHINE LEARNING
-<p>
-  <img src="https://img.shields.io/badge/NumPy-050505?style=for-the-badge&logo=numpy&logoColor=00f2ff" />
-  <img src="https://img.shields.io/badge/Pandas-050505?style=for-the-badge&logo=pandas&logoColor=7000ff" />
-  <img src="https://img.shields.io/badge/Matplotlib-050505?style=for-the-badge&logo=plotly&logoColor=00f2ff" />
-  <img src="https://img.shields.io/badge/Seaborn-050505?style=for-the-badge&logo=python&logoColor=7000ff" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Exploratory_Data_Analysis-050505?style=for-the-badge&logo=googleanalytics&logoColor=00f2ff" />
-  <img src="https://img.shields.io/badge/Feature_Engineering-050505?style=for-the-badge&logo=abstract&logoColor=7000ff" />
-  <img src="https://img.shields.io/badge/ML_Fundamentals-050505?style=for-the-badge&logo=scikit-learn&logoColor=00f2ff" />
-</p>
+### 🚀 Hakkımda
+- 🔭 Şu anda **otonom İHA sistemleri** ve **astronomik olayların yapay zeka ile sınıflandırılması** (TÜBİTAK 2209-A) üzerine çalışıyorum.
+- 🌱 **ROS, Görüntü İşleme ve Veri Analizi** konularında kendimi geliştirmeye devam ediyorum.
+- 💬 Bana **Python, Makine Öğrenmesi temelleri veya İHA simülasyonları** hakkında sorular sorabilirsiniz.
+- ⚡ Eğlenceli Bilgi: Kod yazmaya ara verdiğimde beni **keman** çalarken bulabilirsiniz.
 
 <br>
 
-### 🚁 AUTONOMOUS SYSTEMS & SIMULATION
-<p>
-  <img src="https://img.shields.io/badge/ROS-050505?style=for-the-badge&logo=ros&logoColor=00f2ff" />
-  <img src="https://img.shields.io/badge/Gazebo_Sim-050505?style=for-the-badge&logo=box&logoColor=7000ff" />
-  <img src="https://img.shields.io/badge/ArduPilot-050505?style=for-the-badge&logo=aerospace&logoColor=00f2ff" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/MAVProxy-050505?style=for-the-badge&logo=gnuterminal&logoColor=7000ff" />
-  <img src="https://img.shields.io/badge/UAV_Simulation-050505?style=for-the-badge&logo=spacex&logoColor=00f2ff" />
-</p>
+### 🛠️ Teknoloji Yığını
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" width="500">
+**Yazılım & Veritabanı** <br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
 
-</div>
+**Veri Bilimi & Makine Öğrenmesi** <br>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=plotly&logoColor=white" />
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/ML_Fundamentals-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+
+**Otonom Sistemler & Simülasyon** <br>
+<img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white" />
+<img src="https://img.shields.io/badge/Gazebo-FF6600?style=flat-square&logo=gazebo&logoColor=white" />
+<img src="https://img.shields.io/badge/ArduPilot-0172C6?style=flat-square&logo=aerospace&logoColor=white" />
+<img src="https://img.shields.io/badge/MAVProxy-4EAA25?style=flat-square&logo=gnuterminal&logoColor=white" />
+
+<br>
+
+### 📊 GitHub İstatistikleri
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=SENIN_GITHUB_KULLANICI_ADIN&show_icons=true&theme=transparent&hide_border=true&title_color=007ACC&icon_color=007ACC&text_color=777777" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SENIN_GITHUB_KULLANICI_ADIN&layout=compact&theme=transparent&hide_border=true&title_color=007ACC&text_color=777777" alt="Top Languages" />
+</p>
