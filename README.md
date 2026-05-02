@@ -97,6 +97,15 @@ My work centers on high-fidelity simulation workflows, vision-guided decision-ma
 
 ---
 
+## 🛠️ How This Profile Works
+
+- The animated header is generated in real time by **readme-typing-svg** and renders directly on your profile page.
+- Badges are served by **shields.io**, so each technology label is an external SVG that GitHub displays automatically.
+- GitHub stats cards and activity graph are dynamic images linked to your username (`gulheda`) and update as your activity changes.
+- To activate this profile README, keep this repository name exactly the same as your GitHub username (`gulheda`).
+
+---
+
 ## 🤝 Contact
 
 <div align="left">
