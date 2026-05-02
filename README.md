@@ -1,4 +1,4 @@
-# Gülheda Sefa
+# Gülheda 
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=900&color=00BFFF&width=900&lines=Computer+Engineering+Student;AI+%7C+Autonomous+UAV+Systems+%7C+Computer+Vision;Building+Mission-Ready+Autonomy+Pipelines)
 
