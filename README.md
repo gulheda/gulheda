@@ -12,8 +12,6 @@
 
 <br>
 
-*Balıkesir Üniversitesi'nde 3. sınıf Bilgisayar Mühendisliği öğrencisiyim. Teorik eğitimimi pratiğe dökmeyi seviyor; ağırlıklı olarak veriyi anlamlandıran modeller eğitip, bu modelleri otonom olarak karar verebilen insansız sistemlere entegre ediyorum.*
-
 </div>
 
 <br>
