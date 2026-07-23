@@ -18,13 +18,6 @@
 
 ---
 
-### 🧭 Odaklandığım Alanlar
-
-* 🔭 **Yapay Zeka & Derin Öğrenme:** Convolutional Neural Networks (CNN) ve Doğal Dil İşleme (NLP) ile veri sınıflandırma, yüksek doğruluklu model eğitimi.
-* 🛸 **Otonom İHA Sistemleri:** ROS ve Gazebo tabanlı simülasyon ortamlarının kurulması, otonom uçuş algoritmaları ve gerçek zamanlı sistem entegrasyonu.
-* 📈 **Veri Bilimi:** Kompleks veriler üzerinde Keşifçi Veri Analizi (EDA), Feature Engineering ve temiz veri altyapıları oluşturma.
-
-<br>
 
 ### 🛠️ Geliştirme Ekosistemi
 
